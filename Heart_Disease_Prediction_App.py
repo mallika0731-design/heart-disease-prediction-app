@@ -18,7 +18,7 @@ from sklearn.model_selection import GridSearchCV
 import streamlit as st
 
 # Load Data
-DATA_PATH = "C:/Users/Lenovo/Desktop/Heart_Disease_uci.csv"
+DATA_PATH = os.path.join(script_dir, "Heart_Disease_uci.csv")
 df = pd.read_csv(DATA_PATH)
 
 # Rename target column if needed
