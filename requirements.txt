@@ -1,14 +1,6 @@
-name: heart-disease-prediction
-channels:
-  - defaults
-  - conda-forge
-dependencies:
-  - python=3.10
-  - pip
-  - pip:
-      - streamlit
-      - pandas
-      - scikit-learn
-      - matplotlib
-      - seaborn
-      - numpy
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
