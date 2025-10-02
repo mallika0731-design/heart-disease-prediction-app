@@ -1,0 +1,14 @@
+name: heart_disease_app
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - streamlit
+      - pandas
+      - numpy
+      - matplotlib
+      - seaborn
+      - scikit-learn
